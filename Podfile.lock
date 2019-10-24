@@ -1,0 +1,16 @@
+PODS:
+  - RNCryptor-objc (3.0.6)
+
+DEPENDENCIES:
+  - RNCryptor-objc
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - RNCryptor-objc
+
+SPEC CHECKSUMS:
+  RNCryptor-objc: d1b228f9c02e2173df063f0617684c134aed890e
+
+PODFILE CHECKSUM: 27cb0bd80ad144f0faf5d90b906a1d36836bb9c1
+
+COCOAPODS: 1.8.4

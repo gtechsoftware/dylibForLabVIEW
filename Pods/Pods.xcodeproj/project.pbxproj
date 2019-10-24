@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13071866084088F2D323189EF0FB419E /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 973A0941FC2F8A84BE76E97C9379D94D /* RNCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		161447017C1EE348654515DFFBD3C7B5 /* Pods-dylibForLabVIEW-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 957FFB56A348858F16145E0B9A9E7C73 /* Pods-dylibForLabVIEW-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28B05148C14BAF69CF3982C1796D1F13 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = F85977B7FEC301A2F0FC2B1574FAFA41 /* RNCryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		28C1C135E6A5E6989B2A0032BF0D25ED /* Pods-dylibForLabVIEW-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FA96E8B24CE960A901E15EE7181F50 /* Pods-dylibForLabVIEW-dummy.m */; };
+		2B333C8573CF82326BEF1F6941064275 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBB6F7061D40A6CCFD834D4D84B3EF /* RNEncryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2D1DDBC23C4105524C659CF4451F62D4 /* RNCryptorEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = FB2974110AF6B139AFBBBEC783DB3E68 /* RNCryptorEngine.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		62D3ADB19F842EF0DB8CE7E1EA9FA514 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAD2040386F553847B3FD63003376F3 /* Cocoa.framework */; };
+		6C4C7C2017864F61469A2C83B4C47407 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAD2040386F553847B3FD63003376F3 /* Cocoa.framework */; };
+		6CAC6A57DBBB5818E51F533271BC2B77 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C41B2B978DC92EDCE2E408427E1777 /* RNDecryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9A0F7CDA4729FA0B5605E57180C89277 /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059FECAD744DAA60AD30B63F64151AB /* RNDecryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F0142D71E5D0A1B2D856486652F6372 /* RNCryptor-objc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A81138F3B99BC42F1450BCC79E83843F /* RNCryptor-objc-dummy.m */; };
+		B1BEF5C19977B633055019A02C9FF219 /* RNCryptor-objc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 900E61C5863F4F6A8CB5453C10153E67 /* RNCryptor-objc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B79EED21A6DF98CF51661584143707B0 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D75AF86F8ABF8D56E49D5A0626EA87D /* RNCryptorEngine.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C01475A2D558C8BF45E51813F78443D0 /* RNCryptor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 497860D824C2A4772F7CFEBF680923B9 /* RNCryptor+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FD81BF8BC5B0558A1A87223352A7A88B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C02717986AF7E99DD42B70931BDE20A /* Security.framework */; };
+		FDFE4DD750B0F7E0CC916D601D295C19 /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5B1C1C2A9D597B2B6839850C7AC31D /* RNEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA97156E89E2CB34AFD5A5449CE91819 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7198B1667AFEBBCAA54A1C6CFFB2CE8F;
+			remoteInfo = "RNCryptor-objc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DDC61D3B35873AEDA06ACA2589F602C /* Pods-dylibForLabVIEW-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dylibForLabVIEW-frameworks.sh"; sourceTree = "<group>"; };
+		2553626EC7FB979FE86FD5F2B6F02152 /* Pods-dylibForLabVIEW-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dylibForLabVIEW-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A56132A39AEBEF8FAA7C1B6915BC34E /* Pods_dylibForLabVIEW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dylibForLabVIEW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B323EB3B3EBAD56703B2C0C40011AC5 /* Pods-dylibForLabVIEW-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dylibForLabVIEW-Info.plist"; sourceTree = "<group>"; };
+		34FA96E8B24CE960A901E15EE7181F50 /* Pods-dylibForLabVIEW-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dylibForLabVIEW-dummy.m"; sourceTree = "<group>"; };
+		497860D824C2A4772F7CFEBF680923B9 /* RNCryptor+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RNCryptor+Private.h"; path = "RNCryptor/RNCryptor+Private.h"; sourceTree = "<group>"; };
+		4D5B1C1C2A9D597B2B6839850C7AC31D /* RNEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNEncryptor.h; path = RNCryptor/RNEncryptor.h; sourceTree = "<group>"; };
+		4D75AF86F8ABF8D56E49D5A0626EA87D /* RNCryptorEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptorEngine.m; path = RNCryptor/RNCryptorEngine.m; sourceTree = "<group>"; };
+		4FEBB6F7061D40A6CCFD834D4D84B3EF /* RNEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNEncryptor.m; path = RNCryptor/RNEncryptor.m; sourceTree = "<group>"; };
+		6059FECAD744DAA60AD30B63F64151AB /* RNDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNDecryptor.h; path = RNCryptor/RNDecryptor.h; sourceTree = "<group>"; };
+		65890378D205B82775FE8A9C6A6F9B70 /* RNCryptor-objc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "RNCryptor-objc.modulemap"; sourceTree = "<group>"; };
+		6BAD2040386F553847B3FD63003376F3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		6D2B48598200B94DEEF99A87186F814F /* RNCryptor-objc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-objc-prefix.pch"; sourceTree = "<group>"; };
+		7C02717986AF7E99DD42B70931BDE20A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		8B21038F11F39FD26A26BE657AB4D114 /* Pods-dylibForLabVIEW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dylibForLabVIEW.release.xcconfig"; sourceTree = "<group>"; };
+		900E61C5863F4F6A8CB5453C10153E67 /* RNCryptor-objc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-objc-umbrella.h"; sourceTree = "<group>"; };
+		957FFB56A348858F16145E0B9A9E7C73 /* Pods-dylibForLabVIEW-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dylibForLabVIEW-umbrella.h"; sourceTree = "<group>"; };
+		973A0941FC2F8A84BE76E97C9379D94D /* RNCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptor.h; path = RNCryptor/RNCryptor.h; sourceTree = "<group>"; };
+		9B6B254C84FA2A519AC631CB002662C0 /* Pods-dylibForLabVIEW.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-dylibForLabVIEW.modulemap"; sourceTree = "<group>"; };
+		9B8FB100BD90FDB1DA89393D850AA282 /* RNCryptor-objc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RNCryptor-objc.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A52236C6E99CBE28F0D25ED255582063 /* RNCryptor_objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RNCryptor_objc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81138F3B99BC42F1450BCC79E83843F /* RNCryptor-objc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RNCryptor-objc-dummy.m"; sourceTree = "<group>"; };
+		E2C41B2B978DC92EDCE2E408427E1777 /* RNDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNDecryptor.m; path = RNCryptor/RNDecryptor.m; sourceTree = "<group>"; };
+		F85977B7FEC301A2F0FC2B1574FAFA41 /* RNCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptor.m; path = RNCryptor/RNCryptor.m; sourceTree = "<group>"; };
+		FA2616ABE830B38C7AA2F461203E92C8 /* Pods-dylibForLabVIEW-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dylibForLabVIEW-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB2974110AF6B139AFBBBEC783DB3E68 /* RNCryptorEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptorEngine.h; path = RNCryptor/RNCryptorEngine.h; sourceTree = "<group>"; };
+		FD7B62712838F595C52525459BADC998 /* RNCryptor-objc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RNCryptor-objc-Info.plist"; sourceTree = "<group>"; };
+		FE1F2E868639FB28523899BC88A025EA /* Pods-dylibForLabVIEW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dylibForLabVIEW.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4AC7B728AF87B79764222299EF7F2C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4C7C2017864F61469A2C83B4C47407 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB98311705EB42A90CC77AAAD8177C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D3ADB19F842EF0DB8CE7E1EA9FA514 /* Cocoa.framework in Frameworks */,
+				FD81BF8BC5B0558A1A87223352A7A88B /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0015BE47F0345760F9589035419FB583 /* RNCryptor-objc */ = {
+			isa = PBXGroup;
+			children = (
+				973A0941FC2F8A84BE76E97C9379D94D /* RNCryptor.h */,
+				F85977B7FEC301A2F0FC2B1574FAFA41 /* RNCryptor.m */,
+				497860D824C2A4772F7CFEBF680923B9 /* RNCryptor+Private.h */,
+				FB2974110AF6B139AFBBBEC783DB3E68 /* RNCryptorEngine.h */,
+				4D75AF86F8ABF8D56E49D5A0626EA87D /* RNCryptorEngine.m */,
+				6059FECAD744DAA60AD30B63F64151AB /* RNDecryptor.h */,
+				E2C41B2B978DC92EDCE2E408427E1777 /* RNDecryptor.m */,
+				4D5B1C1C2A9D597B2B6839850C7AC31D /* RNEncryptor.h */,
+				4FEBB6F7061D40A6CCFD834D4D84B3EF /* RNEncryptor.m */,
+				B5D7B13EF7B470A39E5D0F98629B22A2 /* Support Files */,
+			);
+			path = "RNCryptor-objc";
+			sourceTree = "<group>";
+		};
+		0908AD44086C58B574A86FBEE942C5AA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC555A5021F455C34A441689D5BCA004 /* Pods-dylibForLabVIEW */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4405A93A7D4B7B1EAE32C16CF3C5DF23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A56132A39AEBEF8FAA7C1B6915BC34E /* Pods_dylibForLabVIEW.framework */,
+				A52236C6E99CBE28F0D25ED255582063 /* RNCryptor_objc.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4440908360F34C263449E23C7B042775 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				6BAD2040386F553847B3FD63003376F3 /* Cocoa.framework */,
+				7C02717986AF7E99DD42B70931BDE20A /* Security.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		A795CC5A27A9F0B8E3144D2F6EDAE187 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0015BE47F0345760F9589035419FB583 /* RNCryptor-objc */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5D7B13EF7B470A39E5D0F98629B22A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				65890378D205B82775FE8A9C6A6F9B70 /* RNCryptor-objc.modulemap */,
+				9B8FB100BD90FDB1DA89393D850AA282 /* RNCryptor-objc.xcconfig */,
+				A81138F3B99BC42F1450BCC79E83843F /* RNCryptor-objc-dummy.m */,
+				FD7B62712838F595C52525459BADC998 /* RNCryptor-objc-Info.plist */,
+				6D2B48598200B94DEEF99A87186F814F /* RNCryptor-objc-prefix.pch */,
+				900E61C5863F4F6A8CB5453C10153E67 /* RNCryptor-objc-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RNCryptor-objc";
+			sourceTree = "<group>";
+		};
+		BC555A5021F455C34A441689D5BCA004 /* Pods-dylibForLabVIEW */ = {
+			isa = PBXGroup;
+			children = (
+				9B6B254C84FA2A519AC631CB002662C0 /* Pods-dylibForLabVIEW.modulemap */,
+				FA2616ABE830B38C7AA2F461203E92C8 /* Pods-dylibForLabVIEW-acknowledgements.markdown */,
+				2553626EC7FB979FE86FD5F2B6F02152 /* Pods-dylibForLabVIEW-acknowledgements.plist */,
+				34FA96E8B24CE960A901E15EE7181F50 /* Pods-dylibForLabVIEW-dummy.m */,
+				0DDC61D3B35873AEDA06ACA2589F602C /* Pods-dylibForLabVIEW-frameworks.sh */,
+				2B323EB3B3EBAD56703B2C0C40011AC5 /* Pods-dylibForLabVIEW-Info.plist */,
+				957FFB56A348858F16145E0B9A9E7C73 /* Pods-dylibForLabVIEW-umbrella.h */,
+				FE1F2E868639FB28523899BC88A025EA /* Pods-dylibForLabVIEW.debug.xcconfig */,
+				8B21038F11F39FD26A26BE657AB4D114 /* Pods-dylibForLabVIEW.release.xcconfig */,
+			);
+			name = "Pods-dylibForLabVIEW";
+			path = "Target Support Files/Pods-dylibForLabVIEW";
+			sourceTree = "<group>";
+		};
+		C080C886C9E2F80D52E3E86A62E5B711 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4440908360F34C263449E23C7B042775 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C080C886C9E2F80D52E3E86A62E5B711 /* Frameworks */,
+				A795CC5A27A9F0B8E3144D2F6EDAE187 /* Pods */,
+				4405A93A7D4B7B1EAE32C16CF3C5DF23 /* Products */,
+				0908AD44086C58B574A86FBEE942C5AA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		130374FAFAE643A6292253615A6345DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161447017C1EE348654515DFFBD3C7B5 /* Pods-dylibForLabVIEW-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B76BF443E2D2E1877C980F9997DE6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01475A2D558C8BF45E51813F78443D0 /* RNCryptor+Private.h in Headers */,
+				B1BEF5C19977B633055019A02C9FF219 /* RNCryptor-objc-umbrella.h in Headers */,
+				13071866084088F2D323189EF0FB419E /* RNCryptor.h in Headers */,
+				2D1DDBC23C4105524C659CF4451F62D4 /* RNCryptorEngine.h in Headers */,
+				9A0F7CDA4729FA0B5605E57180C89277 /* RNDecryptor.h in Headers */,
+				FDFE4DD750B0F7E0CC916D601D295C19 /* RNEncryptor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7198B1667AFEBBCAA54A1C6CFFB2CE8F /* RNCryptor-objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3D92FD724FAFE1426E1F411B193AA02 /* Build configuration list for PBXNativeTarget "RNCryptor-objc" */;
+			buildPhases = (
+				D1B76BF443E2D2E1877C980F9997DE6C /* Headers */,
+				BF45F1AFAAE03F9EF4A72186EF309414 /* Sources */,
+				EB98311705EB42A90CC77AAAD8177C3C /* Frameworks */,
+				610B8D28801D7BB273366094C02D19D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RNCryptor-objc";
+			productName = "RNCryptor-objc";
+			productReference = A52236C6E99CBE28F0D25ED255582063 /* RNCryptor_objc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D78D9F108AE790EA341E28753ADF1A9F /* Pods-dylibForLabVIEW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDAD5E8FE7EC2B0A5B20EB409FA956C /* Build configuration list for PBXNativeTarget "Pods-dylibForLabVIEW" */;
+			buildPhases = (
+				130374FAFAE643A6292253615A6345DD /* Headers */,
+				97C9494AF4FA0F374EB677A6DDCE89F8 /* Sources */,
+				B4AC7B728AF87B79764222299EF7F2C7 /* Frameworks */,
+				9A11B4323B6F8BF7546873C025F792A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				977C4564F32B1949A6EDE6DA09B2141B /* PBXTargetDependency */,
+			);
+			name = "Pods-dylibForLabVIEW";
+			productName = "Pods-dylibForLabVIEW";
+			productReference = 2A56132A39AEBEF8FAA7C1B6915BC34E /* Pods_dylibForLabVIEW.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1110;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4405A93A7D4B7B1EAE32C16CF3C5DF23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D78D9F108AE790EA341E28753ADF1A9F /* Pods-dylibForLabVIEW */,
+				7198B1667AFEBBCAA54A1C6CFFB2CE8F /* RNCryptor-objc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		610B8D28801D7BB273366094C02D19D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A11B4323B6F8BF7546873C025F792A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97C9494AF4FA0F374EB677A6DDCE89F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C1C135E6A5E6989B2A0032BF0D25ED /* Pods-dylibForLabVIEW-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF45F1AFAAE03F9EF4A72186EF309414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0142D71E5D0A1B2D856486652F6372 /* RNCryptor-objc-dummy.m in Sources */,
+				28B05148C14BAF69CF3982C1796D1F13 /* RNCryptor.m in Sources */,
+				B79EED21A6DF98CF51661584143707B0 /* RNCryptorEngine.m in Sources */,
+				6CAC6A57DBBB5818E51F533271BC2B77 /* RNDecryptor.m in Sources */,
+				2B333C8573CF82326BEF1F6941064275 /* RNEncryptor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		977C4564F32B1949A6EDE6DA09B2141B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RNCryptor-objc";
+			target = 7198B1667AFEBBCAA54A1C6CFFB2CE8F /* RNCryptor-objc */;
+			targetProxy = FA97156E89E2CB34AFD5A5449CE91819 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1ACD4AC4B4BD2A7E6067772E5237EA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B8FB100BD90FDB1DA89393D850AA282 /* RNCryptor-objc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor-objc/RNCryptor-objc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RNCryptor-objc/RNCryptor-objc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "Target Support Files/RNCryptor-objc/RNCryptor-objc.modulemap";
+				PRODUCT_MODULE_NAME = RNCryptor_objc;
+				PRODUCT_NAME = RNCryptor_objc;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1EB9F6851250400B7B3138F552532CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE1F2E868639FB28523899BC88A025EA /* Pods-dylibForLabVIEW.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-dylibForLabVIEW/Pods-dylibForLabVIEW-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-dylibForLabVIEW/Pods-dylibForLabVIEW.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BA73AC4D34DE74E6B06AC2E6336A58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B8FB100BD90FDB1DA89393D850AA282 /* RNCryptor-objc.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor-objc/RNCryptor-objc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RNCryptor-objc/RNCryptor-objc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "Target Support Files/RNCryptor-objc/RNCryptor-objc.modulemap";
+				PRODUCT_MODULE_NAME = RNCryptor_objc;
+				PRODUCT_NAME = RNCryptor_objc;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9382317ED75CFC741F429FC224405042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		984E37E9A2DAE9BD655A7BB1815E050B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B21038F11F39FD26A26BE657AB4D114 /* Pods-dylibForLabVIEW.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-dylibForLabVIEW/Pods-dylibForLabVIEW-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-dylibForLabVIEW/Pods-dylibForLabVIEW.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4DEAC9B52796426D2A37E7074A1738D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9382317ED75CFC741F429FC224405042 /* Debug */,
+				E4DEAC9B52796426D2A37E7074A1738D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDAD5E8FE7EC2B0A5B20EB409FA956C /* Build configuration list for PBXNativeTarget "Pods-dylibForLabVIEW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EB9F6851250400B7B3138F552532CBA /* Debug */,
+				984E37E9A2DAE9BD655A7BB1815E050B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3D92FD724FAFE1426E1F411B193AA02 /* Build configuration list for PBXNativeTarget "RNCryptor-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BA73AC4D34DE74E6B06AC2E6336A58B /* Debug */,
+				1ACD4AC4B4BD2A7E6067772E5237EA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
