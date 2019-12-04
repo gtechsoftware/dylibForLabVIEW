@@ -5,11 +5,7 @@
 //  Created by Michael Powell on 10/17/19.
 //  Copyright © 2019 Michael Powell. All rights reserved.
 //
-
-#import <Cocoa/Cocoa.h>
-#import "RNCryptor.h"
-#import "RNDecryptor.h"
-#include <stdlib.h>
+#import "dylibForLabVIEW.h"
 
 @interface dylibForLabVIEW : NSObject
 @end
@@ -48,15 +44,25 @@ int32_t testFunction(int32_t testInteger)   {
 ///     If so, base64 will have been stripped
 ///     What is passed here is a pointer to the encrypted bytes, their length, and a pointer to where the decrypted result should
 ///
-uint64_t    decryptData (uint8_t *dataToDecrypt, uint64_t lengthToDecrypt, uint8_t *decryptedData) {
+uint64_t    decryptData (uint8_t *dataToDecrypt, uint64_t lengthToDecrypt, uint8_t *decryptedData, uint8_t *errorText) {
     unsigned long lengthDecrypted = 0;
     NSData  *objcDecryptedData;
     NSData  *objcDataToDecrypt = [NSData dataWithBytes:dataToDecrypt length:lengthToDecrypt];
     NSError *objcError;
+    NSData *errorData;
     objcDecryptedData = [dylibForLabVIEW decrypt_objc_data:objcDataToDecrypt reportedError:&objcError];
     if (!objcError) {
         lengthDecrypted = [objcDecryptedData length];
+        errorData = [@"no error" dataUsingEncoding:NSUTF8StringEncoding];
     }
+    else    {
+        errorData = [objcError.localizedDescription dataUsingEncoding:NSUTF8StringEncoding];
+    }
+    uint32_t errorLength = [errorData length];
+    for (int i = 0; i <= errorLength; i++) {
+        errorText[i] = 0;
+    }   //  text, plus terminal 0
+    memcpy(errorText, [errorData bytes], errorLength);
     unsigned char *newlyDecryptedData = [objcDecryptedData bytes];
     memcpy(decryptedData, newlyDecryptedData, lengthDecrypted);
     return lengthDecrypted;

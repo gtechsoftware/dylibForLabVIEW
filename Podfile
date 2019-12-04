@@ -5,5 +5,5 @@ project ‘dylibForLabVIEW.xcodeproj’
 use_frameworks!
 
 target 'dylibForLabVIEW' do
-     pod 'RNCryptor-objc'
+#     pod 'RNCryptor-objc'
 end

@@ -10,15 +10,15 @@
 		4DCE0D0D04C3A1CD8CD93514 /* Pods_dylibForLabVIEW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 673C504EFB3E7844B1D747CF /* Pods_dylibForLabVIEW.framework */; };
 		DD1421F723590B820014BA52 /* dylibForLabVIEW.h in Headers */ = {isa = PBXBuildFile; fileRef = DD1421F623590B820014BA52 /* dylibForLabVIEW.h */; };
 		DD1421F923590B820014BA52 /* dylibForLabVIEW.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1421F823590B820014BA52 /* dylibForLabVIEW.m */; };
-		DD14222B2359163F0014BA52 /* RNCryptor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = DD1422202359163F0014BA52 /* RNCryptor+Private.h */; };
-		DD14222C2359163F0014BA52 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1422232359163F0014BA52 /* RNDecryptor.m */; };
-		DD14222D2359163F0014BA52 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1422242359163F0014BA52 /* RNCryptor.m */; };
-		DD14222E2359163F0014BA52 /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = DD1422252359163F0014BA52 /* RNEncryptor.h */; };
-		DD14222F2359163F0014BA52 /* RNCryptorEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = DD1422262359163F0014BA52 /* RNCryptorEngine.h */; };
-		DD1422302359163F0014BA52 /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = DD1422272359163F0014BA52 /* RNDecryptor.h */; };
-		DD1422312359163F0014BA52 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1422282359163F0014BA52 /* RNCryptorEngine.m */; };
-		DD1422322359163F0014BA52 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1422292359163F0014BA52 /* RNEncryptor.m */; };
-		DD1422332359163F0014BA52 /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = DD14222A2359163F0014BA52 /* RNCryptor.h */; };
+		DD8FB8C82392C1D300E52C72 /* RNCryptorEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8FB8BE2392C1D300E52C72 /* RNCryptorEngine.h */; };
+		DD8FB8C92392C1D300E52C72 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8FB8C02392C1D300E52C72 /* RNEncryptor.m */; };
+		DD8FB8CA2392C1D300E52C72 /* RNCryptor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8FB8C12392C1D300E52C72 /* RNCryptor+Private.h */; };
+		DD8FB8CB2392C1D300E52C72 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8FB8C22392C1D300E52C72 /* RNCryptorEngine.m */; };
+		DD8FB8CC2392C1D300E52C72 /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8FB8C32392C1D300E52C72 /* RNCryptor.h */; };
+		DD8FB8CD2392C1D300E52C72 /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8FB8C42392C1D300E52C72 /* RNDecryptor.h */; };
+		DD8FB8CE2392C1D300E52C72 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8FB8C52392C1D300E52C72 /* RNDecryptor.m */; };
+		DD8FB8CF2392C1D300E52C72 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8FB8C62392C1D300E52C72 /* RNCryptor.m */; };
+		DD8FB8D02392C1D300E52C72 /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8FB8C72392C1D300E52C72 /* RNEncryptor.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,13 +28,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 2A56132A39AEBEF8FAA7C1B6915BC34E;
 			remoteInfo = "Pods-dylibForLabVIEW";
-		};
-		DD142216235911140014BA52 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DD142203235910F10014BA52 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A52236C6E99CBE28F0D25ED255582063;
-			remoteInfo = "RNCryptor-objc";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -55,15 +48,15 @@
 		DD14220E235910F10014BA52 /* Target Support Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Target Support Files"; sourceTree = "<group>"; };
 		DD14220F235910F10014BA52 /* Local Podspecs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Local Podspecs"; sourceTree = "<group>"; };
 		DD14221A235912440014BA52 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD1422202359163F0014BA52 /* RNCryptor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RNCryptor+Private.h"; path = "Pods/RNCryptor-objc/RNCryptor/RNCryptor+Private.h"; sourceTree = SOURCE_ROOT; };
-		DD1422232359163F0014BA52 /* RNDecryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNDecryptor.m; path = "Pods/RNCryptor-objc/RNCryptor/RNDecryptor.m"; sourceTree = SOURCE_ROOT; };
-		DD1422242359163F0014BA52 /* RNCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNCryptor.m; path = "Pods/RNCryptor-objc/RNCryptor/RNCryptor.m"; sourceTree = SOURCE_ROOT; };
-		DD1422252359163F0014BA52 /* RNEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNEncryptor.h; path = "Pods/RNCryptor-objc/RNCryptor/RNEncryptor.h"; sourceTree = SOURCE_ROOT; };
-		DD1422262359163F0014BA52 /* RNCryptorEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNCryptorEngine.h; path = "Pods/RNCryptor-objc/RNCryptor/RNCryptorEngine.h"; sourceTree = SOURCE_ROOT; };
-		DD1422272359163F0014BA52 /* RNDecryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNDecryptor.h; path = "Pods/RNCryptor-objc/RNCryptor/RNDecryptor.h"; sourceTree = SOURCE_ROOT; };
-		DD1422282359163F0014BA52 /* RNCryptorEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNCryptorEngine.m; path = "Pods/RNCryptor-objc/RNCryptor/RNCryptorEngine.m"; sourceTree = SOURCE_ROOT; };
-		DD1422292359163F0014BA52 /* RNEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNEncryptor.m; path = "Pods/RNCryptor-objc/RNCryptor/RNEncryptor.m"; sourceTree = SOURCE_ROOT; };
-		DD14222A2359163F0014BA52 /* RNCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNCryptor.h; path = "Pods/RNCryptor-objc/RNCryptor/RNCryptor.h"; sourceTree = SOURCE_ROOT; };
+		DD8FB8BE2392C1D300E52C72 /* RNCryptorEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptorEngine.h; sourceTree = "<group>"; };
+		DD8FB8C02392C1D300E52C72 /* RNEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEncryptor.m; sourceTree = "<group>"; };
+		DD8FB8C12392C1D300E52C72 /* RNCryptor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Private.h"; sourceTree = "<group>"; };
+		DD8FB8C22392C1D300E52C72 /* RNCryptorEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptorEngine.m; sourceTree = "<group>"; };
+		DD8FB8C32392C1D300E52C72 /* RNCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
+		DD8FB8C42392C1D300E52C72 /* RNDecryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDecryptor.h; sourceTree = "<group>"; };
+		DD8FB8C52392C1D300E52C72 /* RNDecryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDecryptor.m; sourceTree = "<group>"; };
+		DD8FB8C62392C1D300E52C72 /* RNCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptor.m; sourceTree = "<group>"; };
+		DD8FB8C72392C1D300E52C72 /* RNEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNEncryptor.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,15 +121,15 @@
 			children = (
 				DD1421F623590B820014BA52 /* dylibForLabVIEW.h */,
 				DD1421F823590B820014BA52 /* dylibForLabVIEW.m */,
-				DD14222A2359163F0014BA52 /* RNCryptor.h */,
-				DD1422242359163F0014BA52 /* RNCryptor.m */,
-				DD1422202359163F0014BA52 /* RNCryptor+Private.h */,
-				DD1422262359163F0014BA52 /* RNCryptorEngine.h */,
-				DD1422282359163F0014BA52 /* RNCryptorEngine.m */,
-				DD1422272359163F0014BA52 /* RNDecryptor.h */,
-				DD1422232359163F0014BA52 /* RNDecryptor.m */,
-				DD1422252359163F0014BA52 /* RNEncryptor.h */,
-				DD1422292359163F0014BA52 /* RNEncryptor.m */,
+				DD8FB8C32392C1D300E52C72 /* RNCryptor.h */,
+				DD8FB8C62392C1D300E52C72 /* RNCryptor.m */,
+				DD8FB8C12392C1D300E52C72 /* RNCryptor+Private.h */,
+				DD8FB8BE2392C1D300E52C72 /* RNCryptorEngine.h */,
+				DD8FB8C22392C1D300E52C72 /* RNCryptorEngine.m */,
+				DD8FB8C42392C1D300E52C72 /* RNDecryptor.h */,
+				DD8FB8C52392C1D300E52C72 /* RNDecryptor.m */,
+				DD8FB8C72392C1D300E52C72 /* RNEncryptor.h */,
+				DD8FB8C02392C1D300E52C72 /* RNEncryptor.m */,
 			);
 			path = dylibForLabVIEW;
 			sourceTree = "<group>";
@@ -145,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				DD142215235911140014BA52 /* Pods_dylibForLabVIEW.framework */,
-				DD142217235911140014BA52 /* RNCryptor_objc.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,12 +149,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD14222F2359163F0014BA52 /* RNCryptorEngine.h in Headers */,
-				DD14222E2359163F0014BA52 /* RNEncryptor.h in Headers */,
-				DD1422332359163F0014BA52 /* RNCryptor.h in Headers */,
-				DD14222B2359163F0014BA52 /* RNCryptor+Private.h in Headers */,
+				DD8FB8CC2392C1D300E52C72 /* RNCryptor.h in Headers */,
+				DD8FB8CA2392C1D300E52C72 /* RNCryptor+Private.h in Headers */,
+				DD8FB8C82392C1D300E52C72 /* RNCryptorEngine.h in Headers */,
+				DD8FB8D02392C1D300E52C72 /* RNEncryptor.h in Headers */,
 				DD1421F723590B820014BA52 /* dylibForLabVIEW.h in Headers */,
-				DD1422302359163F0014BA52 /* RNDecryptor.h in Headers */,
+				DD8FB8CD2392C1D300E52C72 /* RNDecryptor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,13 +225,6 @@
 			remoteRef = DD142214235911140014BA52 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		DD142217235911140014BA52 /* RNCryptor_objc.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = RNCryptor_objc.framework;
-			remoteRef = DD142216235911140014BA52 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -272,11 +257,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD14222C2359163F0014BA52 /* RNDecryptor.m in Sources */,
-				DD1422312359163F0014BA52 /* RNCryptorEngine.m in Sources */,
-				DD1422322359163F0014BA52 /* RNEncryptor.m in Sources */,
+				DD8FB8CB2392C1D300E52C72 /* RNCryptorEngine.m in Sources */,
+				DD8FB8C92392C1D300E52C72 /* RNEncryptor.m in Sources */,
+				DD8FB8CE2392C1D300E52C72 /* RNDecryptor.m in Sources */,
+				DD8FB8CF2392C1D300E52C72 /* RNCryptor.m in Sources */,
 				DD1421F923590B820014BA52 /* dylibForLabVIEW.m in Sources */,
-				DD14222D2359163F0014BA52 /* RNCryptor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,10 +390,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				INSTALL_PATH = /usr/local/include;
+				INSTALL_PATH = /users/shared/labview;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				"MTL_ENABLE_DEBUG_INFO[arch=*]" = YES;
+				PODS_BUILD_DIR = "${BUILD_DIR}";
 				PRODUCT_BUNDLE_IDENTIFIER = MichaelPowell.dylibForLabVIEW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Debug;
 		};
@@ -425,10 +414,12 @@
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				INSTALL_PATH = /usr/local/include;
+				INSTALL_PATH = /users/shared/labview;
+				PODS_BUILD_DIR = "${BUILD_DIR}";
 				PRODUCT_BUNDLE_IDENTIFIER = MichaelPowell.dylibForLabVIEW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Release;
 		};
